@@ -1,0 +1,16 @@
+script cloud mining ibmcloud
+-----------------------------------------------------------------
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+
+tar xf hellminer_cpu_linux.tar.gz
+
+----------------------------------------------------------------
+
+while [ 1 ]; do
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u (wallet verus kalian).(nama worker terserah) -p x --cpu 2
+
+done
+
+
+
+note: sebelum copas script edit terlebih dahulu wallet dan nama worker kalian tanpa tanda kurung
